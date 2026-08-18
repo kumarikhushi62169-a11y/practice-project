@@ -444,7 +444,9 @@ margin-bottom: 15px;
 
 }
 
-
+.best-sellers table tr{
+    border: 1px solid var(--color-border);
+}
 
 .best-sellers table {
     width: 100%;
@@ -863,7 +865,7 @@ border: none;
 }
 .best-sellers-campare h2{
       text-transform: uppercase;
-      padding-top: 80px  ;
+      padding-top: 100px  ;
 }
 .best-sellers-campare table tr th{
     
@@ -873,3 +875,24 @@ border: none;
     border: 1px solid var(--color-border);
     
 }
+
+nav[aria-label="breadcrump"]{
+    display: inline-block;
+    padding: 15px 30px;
+    color: var(--color-text-muted);
+    font-family: var(--font-body);
+    font-size: .8rem;
+}
+nav[aria-label="breadcrump"] a{
+display: inline-block;
+padding: 0 30px;
+color: var(--color-primary);
+
+}
+nav[aria-label="breadcrump"] a:hover{
+
+color: var(--color-secondary);
+
+}
+
+
